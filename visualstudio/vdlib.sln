@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vdlib", "vdlib.vcproj", "{102AC004-1E72-469B-92A0-81E48E192F74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vdviewer", "vdviewer.vcproj", "{D49A5349-F307-47A5-BDA7-5C6EFD530586}"
+	ProjectSection(ProjectDependencies) = postProject
+		{102AC004-1E72-469B-92A0-81E48E192F74} = {102AC004-1E72-469B-92A0-81E48E192F74}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102AC004-1E72-469B-92A0-81E48E192F74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{102AC004-1E72-469B-92A0-81E48E192F74}.Debug|Win32.Build.0 = Debug|Win32
+		{102AC004-1E72-469B-92A0-81E48E192F74}.Release|Win32.ActiveCfg = Release|Win32
+		{102AC004-1E72-469B-92A0-81E48E192F74}.Release|Win32.Build.0 = Release|Win32
+		{D49A5349-F307-47A5-BDA7-5C6EFD530586}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D49A5349-F307-47A5-BDA7-5C6EFD530586}.Debug|Win32.Build.0 = Debug|Win32
+		{D49A5349-F307-47A5-BDA7-5C6EFD530586}.Release|Win32.ActiveCfg = Release|Win32
+		{D49A5349-F307-47A5-BDA7-5C6EFD530586}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
