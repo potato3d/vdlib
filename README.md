@@ -17,17 +17,17 @@ The library uses OpenGL for rendering, including functionalities like occlusion 
 
 List of dependencies:
 * GLEW: Opengl Extension Wrangler
-** Import OpenGL extensions
+  * Import OpenGL extensions
 * VrBase: Basic library from Virtual Reality Group at Tecgraf
-** Basic types for Linear Algebra
-** Timer, Random, etc
+  * Basic types for Linear Algebra
+  * Timer, Random, etc
     
 All external dependencies are inside the folders:
     /depend
         /include
         /lib
     
-# Main library: VDLIB
+# Main library
 Main source code can be found at:
     /include
         /vdlib
@@ -36,36 +36,36 @@ Main source code can be found at:
 Entire implementation is under the namespace 'vdlib', organized as follows:
 
 * Frustum Culling
-** FrustumCuller
+  * FrustumCuller
 
 * Occlusion Culling
-** OcclusionCuller
-** OcclusionQueryManager
+  * OcclusionCuller
+  * OcclusionQueryManager
 
 * Utilities
-** Distance
-** EigenSolver
-** Intersection
-** Statistics
+  * Distance 
+  * EigenSolver
+  * Intersection
+  * Statistics
 
 * Scene
-** Geometry
-** SceneData
+  * Geometry
+  * SceneData
 
 * Bounding Box
-** Box
-** BoxFactory
+  * Box
+  * BoxFactory
 
 * Hierarchy
-** Node
-** RawNode
-** TreeBuilder
-** PreOrderIterator
+  * Node
+  * RawNode
+  * TreeBuilder
+  * PreOrderIterator
 
 * OpenGL
-** Plane
+  * Plane
 
-# Example: VdViewer
+# Example
 In addition to main library's dependencies, the example viewer uses GLUT for window management. 
 
 The source code is at:
